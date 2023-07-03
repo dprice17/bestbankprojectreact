@@ -3,11 +3,11 @@ import react from "@vitejs/plugin-react";
 import fs from "fs/promises";
 
 export default defineConfig({
-  base: "/bestbank123/",
+  base: "/bestbankprojectreact/",
   plugins: [react()],
   build: {
     rollupOptions: {
-      input: "public/main.jsx",
+      input: "src/main.jsx",
       external: ["uuid"],
     },
   },
