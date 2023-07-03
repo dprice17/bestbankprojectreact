@@ -7,7 +7,7 @@ export default defineConfig({
   plugins: [react()],
   build: {
     rollupOptions: {
-      input: "main.jsx",
+      input: "src/main.js",
       external: ["uuid"],
     },
   },
